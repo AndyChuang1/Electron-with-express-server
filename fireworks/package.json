@@ -1,0 +1,29 @@
+{
+  "name": "fireworks",
+  "version": "0.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main",
+    "pack": "electron-packager . MyApp --platform=win32 --arch=x64 --icon=myapp.ico --version=1.7.10  --asar=false --ignore= node_modules --overwrite"
+
+  },
+  "description": "fireworks",
+  "author": {
+    "name": "SKM-U mPC"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "electron": "^1.7.10",
+    "express": "^4.14.0",
+    "jquery": "^3.2.1",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^10.1.1"
+  }
+}
